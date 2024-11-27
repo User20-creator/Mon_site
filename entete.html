@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Ma page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .horizontal-align {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .header-img {
+            width: 250px;
+            height: 100px;
+        }
+        .text-center {
+            flex-grow: 1;
+            text-align: center;
+            margin: 0;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <div class="horizontal-align shadow-sm p-3 mb-5 bg-white rounded">
+            <img src="Pigier logo.jpg" class="header-img" alt="Logo gauche">
+            <h1 class="text-center">Bienvenue sur mon site</h1>
+            <img src="Pigier logo.jpg" class="header-img" alt="Logo droit">
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
